@@ -1,5 +1,5 @@
-## machine-learning
+# machine-learning
 
-# Estruturas de aprendizado profundo
+## Estruturas de aprendizado profundo
 
 -Deep Neural Network (DNN)
