@@ -40,7 +40,7 @@ def propBackward(AL,Y,variaveis,var2):
     W=variaveis['W'+srt(range(0,L+1))]
     
     dA=(1/m)*np.sum(Y/AL - (1-Y)/(1-AL))
-    dZ=dA*(1-np.sqrt(AL)) #derivada da camada com sigmoid
+    dZ=dA*(1-np.square(AL)) #derivada da camada com sigmoid
     
     for i in range(L-1,0,-1):
         dW=dZ*A[i-1]
